@@ -5,7 +5,8 @@
   $delay: 0s,
   $iteration-count: 1,
   $direction: normal,
-  $fill-mode: forwards
+  $fill-mode: forwards,
+  $play-state: running
 ) {
   animation: {
     name: $name;
@@ -15,6 +16,7 @@
     iteration-count: $iteration-count;
     direction: $direction;
     fill-mode: $fill-mode;
+    play-state: $play-state;
   }
 }
 
