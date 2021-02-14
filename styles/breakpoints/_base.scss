@@ -145,12 +145,7 @@ main {
     text-decoration: none !important;
     display: block;
 
-    @include animation(
-      $name: stopRotate,
-      $duration: 4s,
-      $iteration-count: infinite,
-      $fill-mode: none
-    );
+    
     
 
     & .logo__second {
