@@ -143,6 +143,12 @@ main {
 
   &__home-btn {
     text-decoration: none !important;
+    @include animation(
+      $name: stopRotate,
+      $duration: 4s,
+      $iteration-count: infinite,
+      $fill-mode: none
+    );
 
     & .logo__second {
       color: $cBlack;
@@ -181,13 +187,7 @@ main {
   & .logo {
     font-size: 3.2rem;
     justify-content: center;
-
-    @include animation(
-      $name: stopRotate,
-      $duration: 4s,
-      $iteration-count: infinite,
-      $fill-mode: none
-    );
+    
   }
 
   &__inner {
